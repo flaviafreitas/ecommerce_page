@@ -2,10 +2,6 @@
 
 Este é um projeto de estudo de uma página de e-commerce que foi criado como parte da minha formação em Tecnologia na Escola DNC. A página foi desenvolvida utilizando React.
 
-## Visualização
-
-Você pode ver a página em ação [aqui](https://estudo-ecommerce.netlify.app/).
-
 ## Recursos
 
 O projeto foi criado com fins educacionais, mas aqui estão algumas das tecnologias usadas:
