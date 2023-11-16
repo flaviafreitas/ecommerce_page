@@ -11,7 +11,7 @@ Você pode ver a página em ação [aqui](https://estudo-ecommerce.netlify.app/)
 O projeto foi criado com fins educacionais, mas aqui estão algumas das tecnologias usadas:
 
 - REACT
-- SAAS
+- SCSS
 
 ## Como Executar o Projeto
 
