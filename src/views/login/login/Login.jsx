@@ -13,7 +13,7 @@ const Login = () => {
         <label htmlFor="name">Digite seu CPF:</label>
         <input
           type="text"
-          placeholder="Nome completo"
+          placeholder="000.000.000-00"
           id="name"
           className="login__input-name"
         />
