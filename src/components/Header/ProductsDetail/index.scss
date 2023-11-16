@@ -1,0 +1,68 @@
+@use '/src/sass/variables' as *;
+
+.product-detail {
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+  
+    &__cube-colors {
+      display: flex;
+      gap: 1rem;
+      cursor: pointer;
+    }
+  
+    &__sizes {
+      display: flex;
+      column-gap: 1rem;
+      cursor: pointer;
+    }
+  
+    &__left-side {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    &__card {
+      border-radius: 8px;
+      border: 2px solid $border-background-card;
+  
+      p {
+        padding: 1rem;
+      }
+    }
+  
+    &__description {
+      p {
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid $border-background-card;
+      }
+    }
+  
+    &__right-side {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+  
+      button {
+        background-color: $contrast-color;
+        width: 638px;
+        height: 47px;
+        border-radius: 10px;
+        margin-top: 50px;
+      }
+
+      button:hover {
+        background-color: $button-hover;
+      }
+  
+      a {
+        text-decoration: none;
+        color: $white;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 20px;
+      }
+    }
+  }
